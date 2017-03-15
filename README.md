@@ -20,15 +20,23 @@ double imc = (Peso /(Altura*Altura));
 
 System.out.println("Imc= "+imc);
 
-if(imc<18.5){
+if(imc<18.5) {
 	System.out.println ("Você está magro demais com esse Indice!");
 }
-else{ 
-	if(imc>=18.5 && imc<24.9){
-		System.out.println("Você está normal com esse Indice!");}
+else if (imc>=18.5 && imc<24.9) {
+		System.out.println("Você está normal com esse Indice!");
+}
+		
+else if (imc>=24.9 && imc<29.9){
+		System.out.println("Você está levemente Acima do peso com esse Indice!");
+}
+		
+else {
+  System.out.println("Você está com Sobre Peso Muito Acima do peso com esse Indice!");
+}
 	
-}
+      }
 
-}
+   }
 
 	
