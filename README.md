@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Imc {
 
-	public static void main(String[] args)
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Scanner teclado = new Scanner(System.in);
 System.out.print("Digite a Altura");
@@ -38,5 +38,5 @@ else {
     
 
    }
-
+}
 	
